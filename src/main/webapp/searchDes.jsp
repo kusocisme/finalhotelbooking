@@ -43,7 +43,7 @@
 	
 	#logo a i{
 	    font-size: 40px;
-	    color: #ff385c;
+	    color: #79893c;
 	}
 	
 	#logo > a:hover {
@@ -65,7 +65,7 @@
 	
 	#search-form input[type="submit"] {
 	    padding: 2px 8px;
-	    background-color: #ff385c;
+	    background-color: #79893c;
 	    color: #fff;
 	    border: none;
 	    outline: none;
