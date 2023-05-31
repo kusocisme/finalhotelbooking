@@ -30,9 +30,9 @@ public class HibernateUtil {
 				// Hibernate settings equivalent to hibernate.cfg.xml's properties
 				Properties settings = new Properties();
 				settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-				settings.put(Environment.URL, "jdbc:mysql://localhost:3306/hotelbooking");
-				settings.put(Environment.USER, "root");
-				settings.put(Environment.PASS, "123456789");
+				settings.put(Environment.URL, "jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_b70993987f5d25b");
+				settings.put(Environment.USER, "b0a2d7192479a5");
+				settings.put(Environment.PASS, "97ccbc46");
 				settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
 
 				settings.put(Environment.SHOW_SQL, "true");
