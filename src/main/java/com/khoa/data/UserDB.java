@@ -16,7 +16,7 @@ public class UserDB {
 	public UserDB() {
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	public void saveUser(User user) {
         Transaction transaction = null;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -24,7 +24,7 @@ public class UserDB {
             transaction = session.beginTransaction();
             // save the user object
             session.save(user);
-            // commit transactionnn
+            // commit transaction
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null) {
