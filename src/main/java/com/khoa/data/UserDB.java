@@ -24,7 +24,7 @@ public class UserDB {
             transaction = session.beginTransaction();
             // save the user object
             session.save(user);
-            // commit transactionn
+            // commit transactionnn
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null) {
