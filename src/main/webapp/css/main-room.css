@@ -1033,9 +1033,9 @@ to {
 	box-sizing: border-box;
 	height: 370px;
 	display: grid;
-	grid-template-columns: repeat(var(- -num-cols), 1fr);
-	grid-auto-rows: var(- -row-height);
-	gap: var(- -gap);
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
 }
 
 .image-grid>img {
