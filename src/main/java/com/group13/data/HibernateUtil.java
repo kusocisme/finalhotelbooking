@@ -27,7 +27,7 @@ public class HibernateUtil {
 			try {
 				Configuration configuration = new Configuration();
 
-				// Hibernate settings equivalent to hibernate.cfg.xml's properties
+				// Hibernate settings equivalent to hibernate.cfg.xml's propertiess
 				Properties settings = new Properties();
 				settings.put(Environment.DRIVER, "org.postgresql.Driver");
 				settings.put(Environment.URL, "postgres://goozcpjqrhnzbh:a1ac08ce29e886c86f5ddf2ccd9ba43953422a6ca8cb22065cc6f4daf7811220@ec2-54-234-13-16.compute-1.amazonaws.com:5432/ddkf4mmhq1d16l");
