@@ -1020,16 +1020,16 @@ to {
 	.cancelbtn {
 		width: 100%;
 	}
-	.image-grid { -
-		-num-cols: 2; -
-		-row-height: 50px;
+	.image-grid { 
+		--num-cols: 2;
+		--row-height: 50px;
 	}
 }
 
-.image-grid { -
-	-gap: 10px; -
-	-num-cols: 4; -
-	-row-height: 200px;
+.image-grid { 
+	--gap: 10px;
+	--num-cols: 4;
+	--row-height: 200px;
 	box-sizing: border-box;
 	height: 370px;
 	display: grid;
