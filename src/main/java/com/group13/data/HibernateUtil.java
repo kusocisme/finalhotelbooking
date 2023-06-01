@@ -29,11 +29,11 @@ public class HibernateUtil {
 
 				// Hibernate settings equivalent to hibernate.cfg.xml's properties
 				Properties settings = new Properties();
-				settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-				settings.put(Environment.URL, "jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_b70993987f5d25b");
-				settings.put(Environment.USER, "b0a2d7192479a5");
-				settings.put(Environment.PASS, "97ccbc46");
-				settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
+				settings.put(Environment.DRIVER, "org.postgresql.Driver");
+				settings.put(Environment.URL, "postgres://goozcpjqrhnzbh:a1ac08ce29e886c86f5ddf2ccd9ba43953422a6ca8cb22065cc6f4daf7811220@ec2-54-234-13-16.compute-1.amazonaws.com:5432/ddkf4mmhq1d16l");
+				settings.put(Environment.USER, "goozcpjqrhnzbh");
+				settings.put(Environment.PASS, "a1ac08ce29e886c86f5ddf2ccd9ba43953422a6ca8cb22065cc6f4daf7811220");
+				settings.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
 
 				settings.put(Environment.SHOW_SQL, "true");
 
