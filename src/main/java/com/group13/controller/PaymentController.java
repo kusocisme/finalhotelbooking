@@ -39,10 +39,8 @@ public class PaymentController extends HttpServlet {
 
 	@SuppressWarnings("unused")
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//		 String username = "giangtiny12@gmail.com";
-//		 String password = "G27082001";
-		 String username = "khoanguyen.vt2014@gmail.com";
-		 String password = "ylpxgyafxhmzwwmk";
+		 String username = "privatecompanytestemail@gmail.com";
+		 String password = "gillhxqmrbegzjiy";
 		HttpSession sess= request.getSession();
 		
 		

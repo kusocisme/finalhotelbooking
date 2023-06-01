@@ -31,6 +31,5 @@
 		</div>
 	</div>
 	<div class="horizontal-line"></div>
-	<p class="copy-right">&copy;&nbsp;2023 Copyright belong to Group
-		13.</p>
+	<p class="copy-right">&copy;&nbsp;2023 Copyright belong to Group 13. Version 01.06.2023.10.16</p>
 </div>
